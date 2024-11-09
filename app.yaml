@@ -11,7 +11,7 @@ spec:
   ports:
     - port: 80
       targetPort: 80
-      nodePort: 30388  # Specify the NodePort (can be any port from 30000-32767 range)
+      nodePort: 30080  # Specify the NodePort (can be any port from 30000-32767 range)
 
 ---
 apiVersion: apps/v1
