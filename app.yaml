@@ -5,7 +5,7 @@ metadata:
   labels:
     app: nginx
 spec:
-  type: LoadBalancer  # Change from LoadBalancer to NodePort
+  type: NodePort  # Change from LoadBalancer to NodePort
   selector:
     app: nginx
   ports:
